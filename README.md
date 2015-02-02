@@ -11,4 +11,6 @@ ToDo: Fix Me
 ```
 pyvenv /PATH/TO/qootle
 source /PATH/TO/qootle/bin/activate
+cd ~/PATH/TO/qootle
+pip install -r requirements.txt
 ```
