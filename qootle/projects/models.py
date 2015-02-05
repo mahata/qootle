@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+
+class Projects(models.Model):
+    name = models.TextField(editable=True)
+
+    class Meta:
+        app_label = "projects"
